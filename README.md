@@ -20,49 +20,11 @@ and It was used unity3D 2020.3.18f or hight<br/>
 1. let change `'path' of socketURL` in config.json.
 2. let change `'path' of sslKey` and `'path' of sslCert`  in config.json.   
 3. let change `part of DB Setting` in .env. <br/>
-   Note:   This project must have two ssl key of website. 
+   Note:   This project must have two ssl key of website. <br/>
 	   one of these is web server and other one is node server.
  
 ## Running the Application
-1. `node server` to start the node server in project root dir.
+1. `node server` to start the node server in project root.
 2. `php artisan serve` to start the web server in project root.
 
 
-## Available Applications
-The following are the available applications and the links to the article I've written about it if available:
-
-1. **Custom WebRTC Applications**
-   * **Live stream with WebRTC in your Laravel application**<br/>
-     A Live streaming application built with WebRTC using the simple-peer.js package<br/>
-     [Medium Link](https://mupati.medium.com/live-stream-with-webrtc-in-your-laravel-application-b6ecc13d8509)<br/>
-     [Dev.to Link](https://dev.to/mupati/live-stream-with-webrtc-in-your-laravel-application-2kl3)
-
-   * **Adding Video Chat To Your Laravel App**<br/>
-     This is one-on-one video call application with WebRTC using the simple-peer.js package<br/>
-     [Medium Link](https://mupati.medium.com/adding-video-chat-to-your-laravel-app-9e333c8a01f3)<br/>
-     [Dev.to Link](https://dev.to/mupati/adding-video-chat-to-your-laravel-app-5ak7)
-
-2. **Agora Platform Applications**
-   * **Build a Scalable Video Chat App with Agora in Laravel**<br/>
-     This is one-on-one video call application with [Agora Platform](https://agora.io)<br/>
-     [Medium Link](https://mupati.medium.com/build-a-scalable-video-chat-app-with-agora-in-laravel-29e73c97f9b0)<br/>
-     [Dev.to Link](https://dev.to/mupati/using-agora-for-your-laravel-video-chat-app-1mo)
-
-3. **[Wossop](https://wossop.netlify.app/)**<br/>
-   This is a messaging and video chat application with the WhatsApp web interface.<br/>
-   The APIs are in this repository but the frontend sits elsewhere. I don't plan to blog about it.
-
-## Test Accounts for the Application
-1. after run web application using APM.
-2. Login with these test accounts and test it <br/>
-    email:             name:      password <br/>
-    admin@gmail.com:   admin      admin123<br/>
-
-/*
-# UI for one-on-one Video Call with WebRTC 
-### Incoming Call UI
-![Incoming Call](https://dev-to-uploads.s3.amazonaws.com/i/1qk47qwka8iz0m43tmdu.png)
-
-### Video Chat Session
-![Video Chat](https://dev-to-uploads.s3.amazonaws.com/i/80q8j4yxg6dp8xgb36ql.png)
-*/
