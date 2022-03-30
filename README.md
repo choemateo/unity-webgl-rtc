@@ -1,11 +1,7 @@
 # A Collection of Laravel Projects
 
 This repository contains a collection of applications built with Laravel.<br/>
-At the moment I've been hacking around WebRTC so most of the applications are about WebRTC.<br/>
-Most of them are demo applications for various Technical Articles I've written and going to
-write on [Dev.to](https://dev.to/mupati) and [Medium](https://mupati.medium.com).
-
-There are endpoints for some other applications I've built as well.
+and It was used unity3D 2020.3.18f or hight<br/>
 
 ## Project Setup
 
@@ -19,18 +15,19 @@ There are endpoints for some other applications I've built as well.
 `cp env.example env`
 
 4. Add your db details, pusher API keys and  TURN SERVER credentials.
+
+5. run command 'php artisan migrate' and 'php artisan make:seeder UserSeeder' in command window.
    
 
 ## Running the Application
-
-1. `php artisan serve` to start the server and `npm run start` to start the frontend.
-2. Note that the register endpoint has been removed to prevent people from creating <br/> 
+1. 'node server' to start the node server in project root dir.
+2. `php artisan serve` to start the web server in project root.
+3. Note that the register endpoint has been removed to prevent people from creating <br/> 
    a lot of users when they want to try out the online demo. In your local copy you can enable it in the `routes/web.php` file.
 
 
 ## Available Applications
 The following are the available applications and the links to the article I've written about it if available:
-
 
 1. **Custom WebRTC Applications**
    * **Live stream with WebRTC in your Laravel application**<br/>
@@ -54,11 +51,10 @@ The following are the available applications and the links to the article I've w
    The APIs are in this repository but the frontend sits elsewhere. I don't plan to blog about it.
 
 ## Test Accounts for the Application
-1. Visit Demo url: https://laravel-video-call.herokuapp.com/login
+1. after run web application using APM.
 2. Login with these test accounts and test it <br/>
-    email:            password <br/>
-    foo@example.com:  DY6m7feJtbnx3ud<br/>
-    bar@example.com:  Me3tm5reQpWcn3Q<br/>
+    email:             name:      password <br/>
+    admin@gmail.com:   admin      admin123<br/>
 
 
 # UI for one-on-one Video Call with WebRTC 
