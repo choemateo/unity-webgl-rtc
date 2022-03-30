@@ -1,5 +1,5 @@
 # A Collection of Laravel Projects
-
+This project is online Chatting using webgl of unity and laravel.<br/>
 This repository contains a collection of applications built with Laravel.<br/>
 and It was used unity3D 2020.3.18f or hight<br/>
 
@@ -14,16 +14,18 @@ and It was used unity3D 2020.3.18f or hight<br/>
 3. Create your env file from the example.<br/>
 `cp env.example env`
 
-4. Add your db details, pusher API keys and  TURN SERVER credentials.
-
-5. run command 'php artisan migrate' and 'php artisan make:seeder UserSeeder' in command window.
-   
-
+4. run command `php artisan migrate` and `php artisan make:seeder UserSeeder` in command window.
+  
+## let Change
+1. let change `'path' of socketURL` in config.json.
+2. let change `'path' of sslKey` and `'path' of sslCert`  in config.json.   
+3. let change `part of DB Setting` in .env. <br/>
+   Note:   This project must have two ssl key of website. 
+	   one of these is web server and other one is node server.
+ 
 ## Running the Application
-1. 'node server' to start the node server in project root dir.
+1. `node server` to start the node server in project root dir.
 2. `php artisan serve` to start the web server in project root.
-3. Note that the register endpoint has been removed to prevent people from creating <br/> 
-   a lot of users when they want to try out the online demo. In your local copy you can enable it in the `routes/web.php` file.
 
 
 ## Available Applications
@@ -56,10 +58,11 @@ The following are the available applications and the links to the article I've w
     email:             name:      password <br/>
     admin@gmail.com:   admin      admin123<br/>
 
-
+/*
 # UI for one-on-one Video Call with WebRTC 
 ### Incoming Call UI
 ![Incoming Call](https://dev-to-uploads.s3.amazonaws.com/i/1qk47qwka8iz0m43tmdu.png)
 
 ### Video Chat Session
 ![Video Chat](https://dev-to-uploads.s3.amazonaws.com/i/80q8j4yxg6dp8xgb36ql.png)
+*/
