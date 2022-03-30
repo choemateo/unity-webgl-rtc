@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="그룹_409" data-name="그룹 409" transform="translate(-1805 -1005)">
+        <g id="그룹_406" data-name="그룹 406">
+            <circle id="타원_169" data-name="타원 169" cx="18.5" cy="18.5" r="18.5" transform="translate(1805 1005)" style="opacity:.5;fill:#fff"/>
+            <g id="그룹_260" data-name="그룹 260" transform="translate(1817 1013)">
+                <path id="패스_59" data-name="패스 59" class="cls-2" d="M203.592 895.369a.7.7 0 1 0-1.4 0 4.642 4.642 0 0 1-9.284 0 .7.7 0 1 0-1.4 0 6.055 6.055 0 0 0 5.344 6.005v2.826h-1.207a.7.7 0 1 0 0 1.4h3.819a.7.7 0 1 0 0-1.4h-1.207v-2.822a6.055 6.055 0 0 0 5.335-6.009z" transform="translate(-191.5 -884.437)"/>
+                <path id="패스_60" data-name="패스 60" class="cls-2" d="M230.266 727.3a4.1 4.1 0 0 0 4.1-4.1v-6.6a4.1 4.1 0 1 0-8.2 0v6.6a4.1 4.1 0 0 0 4.1 4.1zm-2.7-10.7a2.7 2.7 0 1 1 5.391 0v6.6a2.7 2.7 0 0 1-5.391 0z" transform="translate(-224.22 -712.5)"/>
+            </g>
+        </g>
+    </g>
+</svg>

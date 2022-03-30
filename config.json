@@ -1,0 +1,17 @@
+{
+  "socketURL": "https://ug.local.com:9008/",
+  "dirPath": "",
+  "homePage": "",
+  "socketMessageEvent": "RTCMultiConnection-Message",
+  "socketCustomEvent": "RTCMultiConnection-Custom-Message",
+  "port": "9008",
+  "enableLogs": "false",
+  "autoRebootServerOnFailure": "false",
+  "isUseHTTPs": "false",
+  "sslKey": "D:\\xampp\\apache\\crt\\ug.local.com\\server.key",
+  "sslCert": "D:\\xampp\\apache\\crt\\ug.local.com\\server.crt",
+  "sslCabundle": "",
+  "enableAdmin": "false",
+  "adminUserName": "wwwmetabank",
+  "adminPassword": "wwwMETABANK"
+}

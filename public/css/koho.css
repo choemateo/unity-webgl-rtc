@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 100;
+    src: url('/fonts/KoHo-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/KoHo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/KoHo-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/KoHo-Bold.ttf') format('truetype');
+}
