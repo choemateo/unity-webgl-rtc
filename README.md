@@ -10,7 +10,7 @@ There are endpoints for some other applications I've built as well.
 ## Project Setup
 
 1. Clone the repository.<br/>
-`git clone https://github.com/Mupati/laravel-video-chat`
+`git clone https://github.com/choemateo/ug`
 
 2. Install dependencies<br/>
 `composer install && npm install`
